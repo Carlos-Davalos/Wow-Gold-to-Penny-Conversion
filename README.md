@@ -1,0 +1,1 @@
+Well its simple i worked with copilot to produce this website quickly but efficiently so that you can find out how much each penny is worth in gold for either if you pay $20 or buy the WOW token with Gold.
