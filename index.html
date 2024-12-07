@@ -89,7 +89,8 @@ nav a{
         function convertToGoldPerPenny() {
             const amount = document.getElementById('amount').value;
             const gold = amount / 1500;
-            document.getElementById('result').innerText = `\ ${amount} gold to get $15 credit results in every ${gold} gold being worth a penny.`;
+            const gpd = amount / 15;
+            document.getElementById('result').innerText = `\ ${amount} gold to get $15 credit results in every ${gold} gold being worth a penny. Every ${gpd} gold is worth $1`;
         }
     </script>
         <p>Tip: If you save up 11 Wow Tokens worth of credit at $15 each you can buy the yearly Time Subscription in World of Warcraft and save 1 Wow token worth of credit per year.</p>
