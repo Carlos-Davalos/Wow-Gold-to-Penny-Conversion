@@ -86,6 +86,9 @@ nav a{
         <input type="number" id="amount" placeholder="Enter Current WOW Token Gold Price" />
         <button onclick="convertToGoldPerPenny()">Convert to Gold per Penny</button>
         <p id="result"></p>
+            <input type="number" id="useramount" placeholder="Enter gold amount to find out value." />
+        <button onclick="convertUserGoldValue()">Convert User's Gold Value</button>
+            <p id="2result"></p>
     </div>
         <script>
         function convertToGoldPerPenny() {
@@ -95,5 +98,15 @@ nav a{
             document.getElementById('result').innerText = ` ${amount} gold from $20 results in every ${gold} gold being worth a penny. Every ${gpd} gold is worth $1. `;
         }
     </script>
+        <script>
+        function convertUserGoldValue() {
+            const amount = parseFloat(document.getElementById('amount').value);
+            const useramount = parseFloat(document.getElementById('useramount').value);
+            const gold = amount / 20;
+            const usergoldworth = useramount / gold;
+            
+           document.getElementById('2result').innerText = ` $ ${usergoldworth} is the total value of your gold when purchased with money. `;
+        }
+        </script>
     </body>
 </html>
