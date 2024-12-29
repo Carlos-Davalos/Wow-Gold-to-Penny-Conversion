@@ -63,3 +63,15 @@ nav a{
     font-size: 20px;
     font-family: sans-serif bold;
 }
+.vid {
+    flex: 1;
+    display: flex;
+    margin: 20px;
+    
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
