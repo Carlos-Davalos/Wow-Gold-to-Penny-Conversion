@@ -12,3 +12,5 @@ DIIV page - Diablo immortal Item value page where you can find simple straightfo
 
 Legit Play to Earn apps page - This page holds a few reviews of hidden gems(apps/games) not known to everyone that can generate a bit of side income. 
 
+Investment Analyses page - This page has a few review/analyses videos/shorts from youtube that I handcrafted so you can have a bit of my analytical perspective and information.(*Not Financial Advice, I am not a Financial Advisor or am i qualified.)
+
